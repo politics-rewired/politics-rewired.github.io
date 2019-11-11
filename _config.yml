@@ -10,11 +10,11 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 # logo: /siteicon.png
-description:
-author: Politics Rewired
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: ""
+author:
+  name: Politics Rewired
+  email: ""
+  twitter: "" # twitter username without the @ symbol
 social:
   name: Politics Rewired
   links:
@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: America/New_York
 
 collections:
   staff_members:
