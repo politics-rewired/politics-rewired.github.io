@@ -1,0 +1,44 @@
+.hero {
+  color: $primary-plum;
+  background: $primary-cream;
+  text-align: left;
+  padding-top: 50px;
+
+  .text-container {
+    border-left: 1px solid $primary-plum;
+    padding: 10px 20px;
+  }
+
+  p {
+    text-align: left;
+    color: $primary-plum;
+  }
+
+  a {
+    color: $primary-green;
+    text-decoration: none;
+
+    &:hover {
+      color: $secondary-green-medium;
+    }
+  }
+}
+
+@media #{$desktop} {
+  .flex {
+    @include flexbox;
+    align-items: center;
+    flex-direction: row;
+
+    .text,
+    .image {
+      -webkit-flex: 1;
+      flex: 1;
+      padding: 0 20px;
+    }
+  }
+
+  .content section:nth-child(even) .flex {
+    flex-direction: row-reverse;
+  }
+}
