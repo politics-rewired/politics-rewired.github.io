@@ -32,7 +32,7 @@ nav {
     margin: 0 3px;
     padding: 20px 10px;
     border-bottom: 1px solid rgba($primary-cream, 0);
-    color: $primary-cream;
+    color: rgba($primary-cream, 0.8);
     transition: 0.2s ease-in-out;
     display: none;
 
@@ -60,24 +60,12 @@ nav {
   }
 
   a:hover {
-    border-bottom: 1px solid rgba($primary-cream, 0.3);
+    border-bottom: 1px solid $primary-cream;
     color: $primary-cream;
   }
 
-  @media #{$mid-point} {
-    a.highlight {
-      border: 1px #ccc solid;
-      border-radius: 5px;
-
-      &:hover {
-        background: #fff;
-        color: $brand-color;
-      }
-    }
-  }
-
   a.active {
-    color: #fff;
+    color: $primary-cream;
   }
 
   #open-nav {

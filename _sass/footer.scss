@@ -18,7 +18,7 @@ footer {
 
   &,
   a {
-    color: $primary-cream;
+    color: rgba($primary-cream, 0.8);
   }
 
   h2 {
@@ -37,7 +37,7 @@ footer {
     text-decoration: none;
 
     &:hover {
-      color: #fff;
+      color: $primary-cream;
     }
   }
 }

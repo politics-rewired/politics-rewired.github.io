@@ -46,7 +46,7 @@ header {
       display: block;
       width: auto;
       height: 45px;
-      // Change the SVG logo color
+      // Change the SVG logo color (you can only use fill with an inline svg)
       filter: invert(85%) sepia(23%) saturate(217%) hue-rotate(339deg)
         brightness(109%) contrast(102%);
     }
