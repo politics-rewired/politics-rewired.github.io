@@ -7,6 +7,14 @@
 }
 
 @font-face {
+  font-family: "Alegreya Sans";
+  src: url("/assets/fonts/Alegreya Sans/AlegreyaSans-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Alegreya";
   src: url("/assets/fonts/Alegreya Serif/Alegreya-Regular.ttf")
     format("truetype");
