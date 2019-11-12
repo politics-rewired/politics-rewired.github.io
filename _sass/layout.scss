@@ -59,7 +59,7 @@ header {
 }
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 section + section {
@@ -78,6 +78,11 @@ section + section {
 
 .page h2 {
   text-align: center;
+}
+
+.page img {
+  padding: 1px;
+  border: 1px solid $primary-green;
 }
 
 blockquote {

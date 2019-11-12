@@ -52,6 +52,14 @@ a {
   text-decoration: none;
 }
 
+.heading-block {
+  text-align: left;
+  border-left: 1px solid $primary-plum;
+  width: 750px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
 p,
 address {
   font-size: 1.38em;

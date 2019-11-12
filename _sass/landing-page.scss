@@ -27,7 +27,7 @@
 @media #{$desktop} {
   .flex {
     @include flexbox;
-    align-items: center;
+    align-items: top;
     flex-direction: row;
 
     .text,
