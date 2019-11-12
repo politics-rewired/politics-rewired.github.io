@@ -51,10 +51,6 @@
   background-color: $primary-plum;
 }
 
-.signup-cta {
-  background-color: $primary-green;
-}
-
 .faq {
   @media #{$desktop} {
     @include columns(2);
