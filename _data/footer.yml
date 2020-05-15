@@ -1,6 +1,13 @@
 - links:
-    - name: Spoke Rewired
-      link: /spoke/
+    - name: Home
+      link: /
+    - name: Pricing
+      link: /pricing/
+    - name: About
+      link: /about/
+    - name: Sign Up
+      link: /signup/
+
 - links:
 - links:
     - name: Twitter

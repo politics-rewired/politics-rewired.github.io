@@ -1,21 +1,50 @@
 ---
-title: Politics Rewired
-description: Coop building political tech.
+title: Spoke
+override:
+  heading: Hosted Spoke P2P Texting
+  description:
+    - Spoke Rewired offers a low-cost, out-of-the-box solution for your team members and volunteers to text a massive audience. Based on the open-source Spoke application, Spoke Rewired features a simple messaging application for efficient texting and automated tools to manage your contact lists.
+    - Use the same software powering the Bernie Sanders 2020 texting program. We’ll host your instance of Spoke Rewired at no additional cost, saving you time, money, and headaches. After you run a texting campaign, we can help you analyze its success in delivering messages.
+sections:
+  - title: Messaging Application
+    content: Send event information, links, and images to voters, volunteers, and donors. Conversations requiring texter action automatically appear in their to-do lists. Texters can easily opt-out contacts or escalate trickier conversations to an administrator.
+    image: texter.png
+  - title: Administration Dashboard
+    content: Create texting campaigns to organize your messaging programs. Administrators can prepare messaging scripts and surveys for your texters to follow as a starting point for conversations. Texters can be grouped into teams, giving you the chance to assign them effectively.
+    image: admin.png
+  - title: Contact Validation
+    content: Validate every number on your contact list beforehand to ensure successful delivery and to reduce costs. All validation results are stored in a database for later reference, allowing you to find the best way to reach out to your contacts.
+    image: filter.png
+  - title: Automatic Resource Management
+    content: As you text your lists, Spoke Rewired calculates how many numbers you need to message your contact list. From there, it automatically provisions new numbers that match the locations your organiation wants.
+    image: proximity.jpg
 ---
-<section class="hero">
-  <div class="text-container">
-    <h1>Politics Rewired</h1>
-    <p class="subtext">Politics Rewired is a worker-owned cooperative that builds digital organizing platforms that free organizers to build power efficiently, democratically, and with 8 hours of sleep a night.</p>
-  </div>
 
-  <div class="text-container">
-    <p>If you're looking to get in touch, email <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.</p>
+<div class="heading-block">
+  <h1>{{ page.override.heading }}</h1>
+  {% for item in page.override.description %}
+    <p>{{ item }}</p>
+  {% endfor %}
+
+  <div class="button signup-cta" style="margin: 40px auto 20px;">
+    <a href="#signup-form">Get started &rarr;</a>
+  </div>
+</div>
+
+{% for section in page.sections %}
+<section>
+  <div class="container flex">
+    <div class="text">
+      <h2>{{ section.title }}</h2>
+      <p class="subtext">{{ section.content }}</p>
+    </div>
+    <div class="image">
+    {% if section.image %}
+      <img src="/images/{{ section.image }}" />
+    {% else %}
+      [Placeholder]
+    {% endif %}
+    </div>
   </div>
 </section>
-
-{%- comment -%} <div class="content">
-  <section class="bottom-cta">
-    <h2 class="editable"><strong>Improve</strong> your sales process today</h2>
-    <div class="button alt"><a href="#">Get Started Free</a></div>
-  </section>
-</div> {%- endcomment -%}
+{% endfor %}
