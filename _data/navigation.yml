@@ -11,6 +11,6 @@
   new_window: false
   highlight: false
 - name: Sign Up
-    link: /signup/
-    new_window: false
-    highlight: true
+  link: /signup/
+  new_window: false
+  highlight: true
