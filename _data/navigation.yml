@@ -10,6 +10,10 @@
   link: /pricing/
   new_window: false
   highlight: false
+- name: Resources
+  link: https://docs.spokerewired.com/
+  new_window: true
+  highlight: false
 - name: Sign Up
   link: /signup/
   new_window: false

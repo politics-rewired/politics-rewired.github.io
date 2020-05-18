@@ -12,7 +12,7 @@ pricing_table:
         highlight: false
       - text: 0.75¢ per inbound SMS segment
         highlight: false
-      - text: Number lookup - .25¢ per phone number (Confirm your numbers are textable!)
+      - text: Number lookup - .25¢ per phone number</br>(Confirm your numbers are textable!)
         highlight: false
       - text: Access to helpdesk to file tickets with developers!
         highlight: false
@@ -47,7 +47,7 @@ faq:
 <div class="plans">
 	{% for plan in page.pricing_table %}
 		<ul class="plan">
-			<li style="background: {{ plan.color }}; padding: - ">
+			<li style="background: {{ plan.color }}">
 				<h3>{{ plan.name }}</h3>
 			</li>
 			{% for feature in plan.features %}
