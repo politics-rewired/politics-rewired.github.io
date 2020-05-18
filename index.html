@@ -20,7 +20,10 @@ sections:
     content: As you text your lists, Spoke Rewired calculates how many numbers you need to message your contact list. From there, it automatically provisions new numbers that match the locations your organization wants.
     image: proximity.jpg
 ---
-
+<div class="content">
+  <section class="page">
+    <div class="container {% if page.full_width %}max-container{% endif %}">
+      
 <div class="heading-block">
   <h1>{{ page.override.heading }}</h1>
   {% for item in page.override.description %}
@@ -32,6 +35,7 @@ sections:
   </div>
 </div>
 
+  
 {% for section in page.sections %}
 <section>
   <div class="container flex">
@@ -49,3 +53,7 @@ sections:
   </div>
 </section>
 {% endfor %}
+      
+</div>
+</div>     
+  
