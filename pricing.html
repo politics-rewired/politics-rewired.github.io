@@ -1,7 +1,8 @@
 ---
 title: Pricing
-heading: Peer-to-peer texting at no markup
-description: We charge the same amount per message as it would cost to host it yourself but without the infrastructure costs - no setup fee.
+override:
+  heading: Peer-to-peer texting at no markup
+  description: We charge the same amount per message as it would cost to host it yourself but without the infrastructure costs - no setup fee.
 pricing_table:
   - name: Pricing by unit
     color: "#023d2b"
@@ -43,6 +44,18 @@ faq:
   - question: Any other questions?
     answer: Contact us for any further questions at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.
 ---
+
+<section class="hero">
+	<div class="text-container">
+
+  <h1>{{ page.override.heading }}</h1>
+  {% for item in page.override.description %}
+    <p>{{ item }}</p>
+  {% endfor %}
+
+</div>
+</section>
+
 <section class="bottom-cta">
 <div class="plans">
 	{% for plan in page.pricing_table %}
