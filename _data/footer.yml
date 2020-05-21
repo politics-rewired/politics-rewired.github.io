@@ -1,7 +1,17 @@
 - links:
-    - name: Spoke Rewired
-      link: /spoke/
+    - name: Home
+      link: /
+    - name: About
+      link: /about/
+    - name: Pricing
+      link: /pricing/
+
 - links:
+    - name: Resources
+      link: https://docs.spokerewired.com/
+    - name: Sign Up
+      link: /signup/
+
 - links:
     - name: Twitter
       link: https://twitter.com/politicsrewired/
@@ -11,3 +21,7 @@
       link: /feed.xml
       social_icon: RSS
       new_window: false
+    - name: Github
+      link: https://github.com/politics-rewired
+      social_icon: Github
+      new_window: true
