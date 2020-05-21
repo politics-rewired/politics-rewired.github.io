@@ -1,20 +1,4 @@
-- name: Home
-  link: /
+- name: Spoke Rewired
+  link: /spoke/
   new_window: false
   highlight: false
-- name: About
-  link: /about/
-  new_window: false
-  highlight: false
-- name: Pricing
-  link: /pricing/
-  new_window: false
-  highlight: false
-- name: Resources
-  link: https://docs.spokerewired.com/
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /signup/
-  new_window: false
-  highlight: true

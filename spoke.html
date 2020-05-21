@@ -1,0 +1,129 @@
+---
+title: Spoke
+airtable_embed_url: https://airtable.com/embed/shr5TOn5NayUyMrEv?backgroundColor=yellow
+override:
+  heading: Hosted Spoke P2P Texting
+  description:
+    - Spoke Rewired offers a low-cost, out-of-the-box solution for your team members to text a massive audience. Based on the open-source Spoke application, Spoke Rewired features a simple messaging application for efficient texting and automated tools to manage your contact lists.
+    - Use the same software powering the Bernie Sanders 2020 texting program. We’ll host your instance of Spoke Rewired at no additional cost, saving you time, money, and headaches. After you run a texting campaign, we can help you analyze its success in delivering messages.
+sections:
+  - title: Messaging Application
+    content: Send event information, links, and images to voters, volunteers, and donors. Conversations requiring texter action automatically appear in their to-do lists. Texters can easily opt-out contacts or escalate trickier conversations to an administrator.
+    image: texter.png
+  - title: Administration Dashboard
+    content: Create texting campaigns to organize your messaging programs. Administrators can prepare messaging scripts and surveys for your texters to follow as a starting point for conversations. Texters can be grouped into teams, giving you the chance to assign them effectively.
+    image: admin.png
+  - title: Contact Validation
+    content: Validate every number on your contact list beforehand to ensure successful delivery and to reduce costs. All validation results are stored in a database for later reference, allowing you to find the best way to reach out to your contacts.
+    image: filter.png
+  - title: Automatic Resource Management
+    content: As you text your lists, Spoke Rewired calculates how many numbers you need to message your contact list. From there, it automatically provisions new numbers that match the locations your organiation wants.
+    image: proximity.jpg
+pricing:
+  description: We charge the same amount per message as it would cost to host it yourself but without the infrastructure costs - no setup fee.
+  products:
+    - item: Phone number
+      cost: "&dollar;1.00/mo"
+    - item: Outbound SMS segment
+      cost: "&cent;0.75 (3/4 of 1 cent)"
+    - item: Inbound SMS segment
+      cost: "&cent;0.75 (3/4 of 1 cent)"
+    - item: Outbound MMS segment
+      cost: "&cent;2"
+    - item: Inbound MMS segment
+      cost: "&cent;2"
+    - item: Number lookup
+      cost: "&cent;0.25 (1/4 of 1 cent)"
+---
+
+<div class="heading-block">
+  <h1>{{ page.override.heading }}</h1>
+  {% for item in page.override.description %}
+    <p>{{ item }}</p>
+  {% endfor %}
+
+  <div class="button signup-cta" style="margin: 40px auto 20px;">
+    <a href="#signup-form">Get started &rarr;</a>
+  </div>
+</div>
+
+{% for section in page.sections %}
+<section>
+  <div class="container flex">
+    <div class="text">
+      <h2>{{ section.title }}</h2>
+      <p class="subtext">{{ section.content }}</p>
+    </div>
+    <div class="image">
+    {% if section.image %}
+      <img src="/images/{{ section.image }}" />
+    {% else %}
+      [Placeholder]
+    {% endif %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section id="pricing">
+  <div class="container flex">
+    <div class="text">
+      <h2>Straightforward Pricing</h2>
+      <p class="subtext">{{ page.pricing.description }}</p>
+    </div>
+    <div class="image">
+      <div class="plans">
+        <ul class="plan">
+          <li class="pricing-heading">
+            <h3>Pricing</h3>
+          </li>
+          {% for price in page.pricing.products %}
+          <li>{{ price.cost }} &mdash; {{ price.item }}</li>
+          {% endfor %}
+          <li class="pricing-cta">
+            <div class="button signup-cta">
+              <a href="#signup-form">Get started &rarr;</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Text your voter file</h2>
+    <p class="subtext">No problem. Create a new campaign with your voter file as the contact list. Assuming you have 1 million phone numbers:</p>
+    <div class="container flex">
+      <div class="text">
+        <h3>Validate phone numbers</h3>
+        <p>$0.0025 per number * 1 million numbers = <strong>$2,500</strong></p>
+        <p>Likely, ½ are textable, ⅓ are landlines</p>
+      </div>
+      <div class="text">
+        <h3>Send messages</h3>
+        <p>Spoke calculates that you need 50 numbers to send from.</p>
+        <p>$1 per number * 50 numbers = <strong>$50</strong></p>
+        <p>$0.0075 per text * 0.5 million texts = <strong>$3,750</strong></p>
+      </div>
+      <div class="text">
+        <h3>Total cost</h3>
+        <p>Total cost = <strong>$6,300</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+<iframe
+  id="signup-form"
+  class="airtable-embed airtable-dynamic-height"
+  src="{{ page.airtable_embed_url }}"
+  frameborder="0"
+  onmousewheel=""
+  width="100%"
+  height="1866"
+  style="background: transparent; border: 1px solid #ccc;"
+></iframe>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"446f5fa4728d96df66a367117","lid":"ed7b076a47","uniqueMethods":true}) })</script>
