@@ -1,0 +1,44 @@
+---
+title: Spoke
+layout: page
+override:
+  heading: Host Spoke yourself - direct pricing
+  description:
+    - We offer a direct pricing model for hosting our fork of Spoke yourself - .75¢ per SMS segment (inbound / outbound) and
+    - 2¢ per MMS segment (inbound / outbound). Contact us at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a> to learn more.
+
+---
+
+<section class="hero">
+	<div class="text-container">
+
+  <h1>{{ page.override.heading }}</h1>
+  {% for item in page.override.description %}
+    <p>{{ item }}</p>
+  {% endfor %}
+
+  <div class="button signup-cta" style="margin: 40px auto 20px;">
+    <a href="mailto:info@politicsrewired.com">Contact us &rarr;</a>
+  </div>
+</div>
+</section>
+
+
+
+{% for section in page.sections %}
+<section>
+  <div class="container flex">
+    <div class="text">
+      <h2>{{ section.title }}</h2>
+      <p class="subtext">{{ section.content }}</p>
+    </div>
+    <div class="image">
+    {% if section.image %}
+      <img src="/images/{{ section.image }}" />
+    {% else %}
+      [Placeholder]
+    {% endif %}
+    </div>
+  </div>
+</section>
+{% endfor %}
