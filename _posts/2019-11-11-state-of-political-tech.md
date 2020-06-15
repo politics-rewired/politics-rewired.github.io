@@ -3,7 +3,7 @@ date: 2019-11-11
 title: The State of Political Tech
 categories:
   - tech
-author: Ben Chrobot
+author: Kohlee Kennedy 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non ipsum diam. Vivamus ante nibh, dapibus a feugiat eget, tincidunt id nunc. Suspendisse in elit augue. Suspendisse ut rhoncus ante. Nunc nec diam sed lacus congue sollicitudin. Vivamus libero enim, elementum sit amet dignissim a, accumsan et lorem. Nullam ultricies viverra tempor. Phasellus nibh neque, placerat sed lacus ac, semper aliquet dui.
