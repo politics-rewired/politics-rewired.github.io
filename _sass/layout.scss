@@ -80,9 +80,15 @@ section + section {
   text-align: center;
 }
 
+.page li {
+  color: $primary-plum;
+  font-size: 1.3em;
+}
+
 .page img {
-  padding: 1px;
-  border: 1px solid $primary-green;
+  padding: .25px;
+  border: .25px solid $primary-cream;
+  border-radius: 5px;
 }
 
 blockquote {
