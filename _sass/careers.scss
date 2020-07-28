@@ -1,0 +1,22 @@
+.job-listings {
+  .company {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 1.1em;
+  }
+
+  dt {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  dd {
+    a {
+      display: block;
+      margin-top: 5px;
+    }
+  }
+}

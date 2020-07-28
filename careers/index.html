@@ -1,0 +1,45 @@
+---
+title: Politics Rewired
+description: Coop building political tech.
+
+teams:
+  - title: Engineering
+    jobs:
+      - title: Assemble Software Engineer
+        description: "You will be building the back-end of our Assemble product suite: a powerful API for working with databases and a collection of front-end applications built on top."
+        link: assemble-software-engineer
+      - title: Full-stack Javascript Developer
+        description: "You will initially be working on Spoke Rewired, our fork of the Spoke peer-to-peer texting application. Areas of work include: improving multi-tenancy support, expanding 3rd party integration offerings, and UX improvements for admins and texters. You will also share in technical support and site reliability duties."
+        link: full-stack-javascript-developer
+---
+
+<section class="hero job-listings">
+  <div class="text-container">
+    <h1>Come work with us</h1>
+    <p class="subtext">
+      Join us in building the next generation of grassroots organizing tools for
+      the left.
+    </p>
+  </div>
+
+  <p class="company">
+    Politics Rewired is a small worker-owned cooperative designing human and
+    technological solutions for organizers. We work with organizers to
+    streamline workflows, freeing them up to focus on what they do best:
+    building relationships. We work with campaigns, unions, and movement
+    organizations.
+  </p>
+
+  {% for team in page.teams %}
+  <h1>{{ team.title }}</h1>
+  <dl>
+    {% for job in team.jobs %}
+    <dt>{{ job.title }}</dt>
+    <dd>
+      {{ job.description }}
+      <a href="{{ job.link }}">See more</a>
+    </dd>
+    {% endfor %}
+  </dl>
+  {% endfor %}
+</section>
