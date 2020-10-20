@@ -1,0 +1,17 @@
+---
+title: Politics Rewired
+description: Coop building political tech.
+---
+<section>
+  <div class="container flex">
+    <div class="text">
+      <h2>Rewired Certificate Authority</h2>
+      <p class="subtext">Please install the following CA for securely connecting to Rewired databases.</p>
+      <p><a href="./ca.cert.pem">ca.cert.pem</a></p>
+      <p>Once installed, you should use the <code>verify-ca</code> SSL mode to securely connect. An example connection string:</p>
+      <code>
+        psql "postgres://username:password@host.pg.ns.spokerewired.com/database_name?sslmode=verify-ca&sslrootcert=/path/to/ca.cert.pem"
+      </code>
+    </div>
+  </div>
+</section>
