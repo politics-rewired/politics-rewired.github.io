@@ -1,14 +1,39 @@
 ---
 title: Spoke
 layout: page
-override:
-  heading: Hosted Spoke P2P Texting
-  description:
-    - Spoke Rewired offers a low-cost, out-of-the-box solution for your peer-to-peer texting team. Based on the open-source Spoke application, but enhanced with automated administrative actions, Spoke Rewired is the most effective way to manage your contact lists, no matter the size of your audience or budget.
-    - Use the same software that powered the Bernie Sanders 2020 texting program, which sent over 260 million messages. Need additional help? We also offer extra assistance in planning, building, and analyzing your campaigns from leaders of the Bernie 2020 National Texting Team.
+
+intro:
+  title: Politics Rewired
+  blocks: 
+    - We're a group of digital organizers and software developers committed to building the technical infrastructure the Left needs to win and wield power. 
+    - If you're interested in doing a user interview with us about your organization or organizing effort's data management needs, email us at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.
+  columns:
+    - title: What's Next
+      action:
+        text: Join us!
+        url: "/careers"
+      body: |
+        <p>
+          We've been planning a series of projects to fundamentally change the organizing technology landscape,
+          and we'll have more information soon about what we're building and how.
+
+          For now, check out our first <a href="/blog">blog post</a> about the importance of technology
+          for organizing projects.
+        </p>
+
+        <p>
+          We're also hiring!
+        </p>
+
+    - title: Peer-to-Peer Texting
+      body: |
+        Spoke Rewired is a low-cost, out-of-the-box solution for your peer-to-peer texting team based on the open-source Spoke application. Use the same software that powered the Bernie Sanders 2020 texting program, which sent over 260 million messages. Need additional help? We also offer extra assistance in planning, building, and analyzing your campaigns from leaders of the Bernie 2020 National Texting Team.
+      action:
+        text: Get Started
+        url: "/signup"
 
 sections:
-  - title: Messaging Application
+  - title: Messaging Platform
     content: From their browser, your volunteers can send scripted and tailored messages to voters, donors, and fellow volunteers. Conversations requiring attention will automatically appear in texters' to-do lists, and they can easily respond, opt-out contacts, or even escalate trickier conversations to an administrator.
     image: texter.png
   - title: Administration Dashboard
@@ -23,20 +48,29 @@ sections:
 ---
 
 <section class="hero">
-	<div class="text-container">
-
-  <h1>{{ page.override.heading }}</h1>
-  {% for item in page.override.description %}
-    <p>{{ item }}</p>
-  {% endfor %}
-
-  <div class="button signup-cta" style="margin: 40px auto 20px;">
-    <a href="/signup/">Get started &rarr;</a>
+  <div class="text-container">
+    <h1> {{ page.intro.title }} </h1>
+    {% for item in page.intro.blocks %}
+      <p> {{ item }} </p>
+    {% endfor %}
   </div>
-</div>
 </section>
 
+<section class="hero">
+  <div class="container flex">
+    {% for item in page.intro.columns %}
+      <div class="text">
+        <h2> {{ item.title }} </h2>
+        <p> {{ item.body }} </p>
+        <div class="button signup-cta" style="margin: 40px auto 20px;">
+          <a href="{{ item.action.url }}">{{ item.action.text }}</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
+<h2> More About Spoke Rewired </h2>
 
 {% for section in page.sections %}
 <section>

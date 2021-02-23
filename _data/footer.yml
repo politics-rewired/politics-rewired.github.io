@@ -1,11 +1,11 @@
 - links:
     - name: Home
       link: /
-    - name: About
-      link: /about/
+    - name: Blog
+      link: /blog/
     - name: Pricing
       link: /pricing/
-    - name: Careers
+    - name: We're Hiring!
       link: /careers/
 
 - links:
