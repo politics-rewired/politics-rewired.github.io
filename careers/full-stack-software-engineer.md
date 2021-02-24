@@ -7,8 +7,7 @@ Rewired is hiring a back-end or full-stack engineer to help us build the next ge
 
 The ideal candidate will have experience with PostgreSQL and TypeScript as well as experience working with electoral campaigns or social movements.
 
-We'll be starting interviews on <strong>March 8th, 2021</strong>, so please get
-applications in before then!
+Please try to get applications in before <strong>March 15th, 2021</strong>!
 
 ## The Company
 
