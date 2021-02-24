@@ -1,8 +1,16 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: "Software Engineer"
 ---
 
+=======
+title: "Assemble Software Engineer"
+---
+
+# Assemble Software Engineer
+
+>>>>>>> fd418f7d25fd5471816462f6723f32c86dbbe993
 Rewired is hiring a back-end or full-stack engineer to help us build the next generation of grassroots organizing tools for the left.
 
 The ideal candidate will have experience with PostgreSQL and TypeScript as well as experience working with electoral campaigns or social movements.
