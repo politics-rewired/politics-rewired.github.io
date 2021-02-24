@@ -7,6 +7,9 @@ Rewired is hiring a back-end or full-stack engineer to help us build the next ge
 
 The ideal candidate will have experience with PostgreSQL and TypeScript as well as experience working with electoral campaigns or social movements.
 
+We'll be starting interviews on <strong>March 8th, 2021</strong>, so please get
+applications in before then!
+
 ## The Company
 
 Rewired is a small worker-owned cooperative designing and building solutions for organizers, enabling them to focus on what they do best: build systems and relationships. We work with political campaigns, unions, and movement organizations, with a deliberate emphasis on supporting Left insurgents and building independent Left infrastructure.
@@ -85,8 +88,11 @@ For this position to be a good fit, you should:
 
 ## How to Apply
 
-To apply for this position, send a resume that includes links to previous work, a short cover
-letter, and two past work references to [hiring@politicsrewired.com](mailto:hiring@politicsrewired.com).
+To apply for this position, send a resume that includes links to previous work, a short
+cover letter, and the name, email, and contact info for two past work references to
+[hiring@politicsrewired.com](mailto:hiring@politicsrewired.com). These could be a
+previous boss or co-worker, or someone that you've worked with on an organizing or
+open-source project with.
 
 ## Equal Opportunity
 
