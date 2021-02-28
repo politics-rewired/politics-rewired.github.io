@@ -31,7 +31,7 @@ Full time employees — base rate of \$5k/month (\$60k/year) with health, vision
 receive shares of quarterly profit distributions.
 
 The salary is at $60k because that's what the current members have decided allows them to live
-comfortably while spending our client's money responsibly and staying oriented towards the
+comfortably while spending our clients' money responsibly and staying oriented towards the
 long-term growth and survival of the company. If this is an issue for you, let us know!
 
 ## The Product
