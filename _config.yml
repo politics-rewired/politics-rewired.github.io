@@ -3,18 +3,19 @@
 
 title: Politics Rewired
 url: "https://politicsrewired.com"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+# baseurl:
+# google_analytics_key:
+# google_maps_javascript_api_key:
+# disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-# logo: /siteicon.png
-description: ""
+logo: /images/polrw_secondary.svg
+image: /images/polrw_secondary.svg
+description: "A group of digital organizers and software developers committed to building the technical infrastructure the Left needs to win and wield power."
 author:
   name: Politics Rewired
-  email: ""
-  twitter: "" # twitter username without the @ symbol
+  email: "info@politicsrewired.com"
+  twitter: "@rewiredcoop" # twitter username without the @ symbol
 social:
   name: Politics Rewired
   links:

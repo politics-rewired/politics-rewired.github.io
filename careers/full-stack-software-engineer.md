@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Software Engineer"
+description: >
+  Rewired is hiring a back-end or full-stack engineer to help us build the next generation of grassroots organizing tools for the 
+  left.
 ---
 
 Rewired is hiring a back-end or full-stack engineer to help us build the next generation of grassroots organizing tools for the left.
