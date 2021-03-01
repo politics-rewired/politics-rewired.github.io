@@ -8,8 +8,8 @@ url: "https://politicsrewired.com"
 # disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /images/polrw_secondary.svg
-image: /images/polrw_secondary.svg
+logo: /images/logo.png
+image: /images/logo.png
 description: "A group of digital organizers and software developers committed to building the technical infrastructure the Left needs to win and wield power."
 author:
   name: Politics Rewired
