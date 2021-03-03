@@ -70,27 +70,30 @@ object-oriented, and aspect-oriented programming to the database.
 
 ## Desired qualities
 
-**MUST**
+**Must**
 
 For this position to be a good fit, you must:
 
-- Have significant experience with SQL databases
-- Have experience working with and designing GraphQL APIs
-- Have significant experience in JavaScript
-- Have strong git skills, e.g. understanding the value of branching and knowing when and where to rebase
-- Have significant experience with the command line
+- Have experience with SQL databases
+- Have experience in JavaScript
+- Have experience with the command line
 - Have an interest in grassroots organizing/building the progressive movement
 - Be excited about being a co-owner and cooperative member who participates in company decisions
 
-**SHOULD**
+**Should**
 
 For this position to be a good fit, you should:
 
+- Have strong git skills, e.g. understanding the value of branching and knowing when and where to rebase
+- Have experience working with and designing GraphQL APIs
 - Have experience with TypeScript or other statically typed languages
+
+**Nice to haves**
+
+The following would also be useful:
 - Have experience with (or at least a general understanding of) Docker, Kubernetes, and microservice architectures
-- Have experience with agile development
 - Have experience with continuous integration (Circle CI, Jenkins, Travis CI, etc.)
-- Be located in New York or not too far away (slightly preferred)
+- Ability to visit NYC sometimes (after COVID, of course)
 
 ## How to Apply
 
