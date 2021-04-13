@@ -1,5 +1,5 @@
 ---
-date: 2020-02-23
+date: 2021-02-23
 title: "The Times They Are A-Changin': Why The Left Needs Better Tools"
 preview: |
   As the world rapidly changes, new organizing opportunities are constantly arising and fading away. All too often, our technology can’t keep up. What the Left needs are general-purpose organizing tools that are both powerful and flexible enough to seize the moment.
