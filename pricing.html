@@ -5,7 +5,7 @@ override:
   description: We charge the same amount per message as it would cost to host it yourself but without the infrastructure costs - no setup fee.
 pricing_table:
   - name: Pricing by unit
-    color: "#023d2b"
+    color: "#FF0000"
     features:
       - text: 1¢ per outbound SMS segment
         highlight: false
@@ -22,31 +22,29 @@ pricing_table:
     call_to_action:
       link: /signup/
       text: Get started
-  - name: "Assuming you have 1 million phone numbers:"
-    color: "#798F86"
+  - name: "With 1 million numbers"
+    color: "#FF0000"
     features:
-      - text: Validate numbers - $0.0025 per number * 1 million numbers = $2,500
+      - text: "First validate the numbers: <br><br>$0.0025 per number x 1 million numbers = <br>$2,500"
         highlight: false
-      - text: "Roughly half your numbers will be textable cells:"
-        highlight: false
-      - text: $0.01 per segment * 0.5 million 1-segment texts = $5,000
+      - text: "Roughly half will be textable: <br><br>$0.01 per segment x 0.5 million 1-segment texts = <br>$5,000"
         highlight: false
       - text: Total cost = $7,500
-        highlight: true
+        highlight: false
 
 
 <!-- TODO: Fix FAQ; add sample pricing or more transparent pricing model. -->
 faq:
   - question: Can I host Spoke myself?
-    answer: Explore our direct pricing option <a href="/directpricing/">here.</a>
+    answer: <span class="answer">Yes, explore our direct pricing option <a href="/directpricing/">here</a>.</span>
   - question: What types of payment do you accept?
-    answer: We accept all major credit cards as well as electronic ACH transfers.
+    answer: <span class="answer">We accept all major credit cards and electronic ACH transfers.</span>
   - question: How do you handle billing?
-    answer: We bill at the end of the month for usage-based products (SMS segments, phone numbers), and at the top of the month for license-based products (consulting, database services, etc.)
+    answer: <span class="answer">We bill at the end of the month for usage-based products (SMS segments, phone numbers), and at the top of the month for license-based products (consulting, database services, etc.)</span>
   - question: Questions about pricing or interested in scheduling a demo?
-    answer: Please reach out at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.
+    answer: <span class="answer">Please reach out at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.</span>
   - question: What is the difference between a SMS segment and a SMS message?
-    answer: You can read about the difference here <a href="https://docs.spokerewired.com/article/89-segments-and-encodings">Segments and encodings</a>.
+    answer: <span class="answer">You can read about the difference here - <a href="https://docs.spokerewired.com/article/89-segments-and-encodings">segments and encodings</a>.</span>
 ---
 
 <section class="hero">
@@ -60,11 +58,11 @@ faq:
 </div>
 </section>
 
-<section class="bottom-cta">
+<section>
 <div class="plans">
 	{% for plan in page.pricing_table %}
 		<ul class="plan">
-			<li style="background: {{ plan.color }}">
+			<li class="bg-color">
 				<h3>{{ plan.name }}</h3>
 			</li>
 			{% for feature in plan.features %}
@@ -72,7 +70,7 @@ faq:
 			{% endfor %}
 
 			{% if plan.call_to_action %}
-				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+				<li class="pricing-cta"><a class="bg-color" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></li>
 			{% endif %}
 		</ul>
 	{% endfor %}
@@ -80,14 +78,12 @@ faq:
 
 {% if page.faq %}
 	<h2>Pricing FAQ</h2>
-	<dl class="faq">
+	<div class="faq">
 		{% for item in page.faq %}
-			<div>
-				<dt>{{ item.question }}</dt>
-				<dd>{{ item.answer }}</dd>
-			</div>
+				<h3>{{ item.question }}</h3>
+				{{ item.answer }}
 		{% endfor %}
-	</dl>
+	</div>
 {% endif %}
 
 </section>
