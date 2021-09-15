@@ -1,9 +1,9 @@
 .button a,
 input[type="submit"] {
-  color: #fff;
+  color: $assemble-white;
   text-decoration: none;
   padding: 10px 30px;
-  background: $primary-green;
+  background: $assemble-orange;
   border-radius: 3px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   transition: 0.2s ease-in-out;
@@ -11,8 +11,9 @@ input[type="submit"] {
 
 .button a:hover,
 input[type="submit"]:hover {
-  border: 1px solid #fff;
-  background: $secondary-green-medium;
+  border: 1px solid $assemble-orange;
+  color: $assemble-white;
+  background: $secondary-salmon;
   cursor: pointer;
 }
 
@@ -25,7 +26,7 @@ input[type="submit"]:hover {
 
 .button.alt a:hover {
   background: #fff;
-  color: $brand-color;
+  color: $secondary-salmon;
 }
 
 textarea,
