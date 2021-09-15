@@ -1,5 +1,5 @@
 .nav-open nav {
-  border-bottom: 1px dotted rgba($primary-cream, 0.2);
+  border-bottom: 1px dotted rgba($assemble-white, 0.2);
   padding: 10px 0;
   a {
     display: block;
@@ -17,12 +17,11 @@
 
 nav {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 20px;
   width: 100%;
 
   @media #{$mid-point} {
     text-align: right;
-    position: absolute;
     top: 13px;
     right: 0;
     padding: 0 20px;
@@ -31,8 +30,8 @@ nav {
   a {
     margin: 0 3px;
     padding: 20px 10px;
-    border-bottom: 1px solid rgba($primary-cream, 0);
-    color: rgba($primary-cream, 0.8);
+    border-bottom: 1px solid rgba($assemble-white, 0);
+    color: rgba($assemble-white, 0.8);
     transition: 0.2s ease-in-out;
     display: none;
 
@@ -43,7 +42,6 @@ nav {
 
     &.nav-toggle {
       display: inline;
-      position: absolute;
       right: 10px;
       top: -22px;
       font-size: 1.9em;
@@ -60,15 +58,15 @@ nav {
   }
 
   a:hover {
-    border-bottom: 1px solid $primary-cream;
-    color: $primary-cream;
+    border-bottom: 1px solid $assemble-white;
+    color: $assemble-white;
   }
 
   a.active {
-    color: $primary-cream;
+    color: $assemble-white;
   }
 
   #open-nav {
-    color: $secondary-green-light;
+    color: $tertiary-light-blue;
   }
 }

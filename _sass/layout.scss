@@ -1,8 +1,7 @@
-.container,
 .text-container {
   margin: 0 auto;
   position: relative;
-  padding: 0 20px;
+  padding: 40px;
 }
 
 .text-container {
@@ -11,6 +10,9 @@
 
 .container {
   max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
 
   &.max-container {
     max-width: 100%;
@@ -18,13 +20,29 @@
   }
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
 header {
-  color: $primary-cream;
+  color: $assemble-white;
   padding: 20px 0;
-  background: $primary-plum; /* Old browsers */
+  background: $assemble-blue;
+  /* Old browsers */
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
 
   a {
-    color: $primary-cream;
+    color: $assemble-white;
     text-decoration: none;
     z-index: 1;
     position: relative;
@@ -44,51 +62,27 @@ header {
 
     img {
       display: block;
-      width: auto;
-      height: 45px;
-      // Change the SVG logo color (you can only use fill with an inline svg)
-      filter: invert(85%) sepia(23%) saturate(217%) hue-rotate(339deg)
-        brightness(109%) contrast(102%);
+      padding-left: 24px;
     }
   }
 }
 
-.content {
-  padding: 1px 0 0 0;
-  position: relative;
-}
-
 section {
-  padding: 80px 0;
-}
-
-section + section {
-  padding-top: 0;
+  padding: 20px;
 }
 
 .subtext {
   margin-top: 10px;
-  // text-align: center;
-  color: $primary-green;
+  color: $assemble-blue;
 }
 
 .cta {
   margin: 60px 0;
 }
 
-.page h2 {
-  text-align: center;
-}
-
-.page li {
-  color: $primary-plum;
+li {
+  color: $assemble-blue;
   font-size: 1.3em;
-}
-
-.page img {
-  padding: .25px;
-  border: .25px solid $primary-cream;
-  border-radius: 5px;
 }
 
 blockquote {
@@ -138,37 +132,6 @@ blockquote:before {
   }
 }
 
-.page {
-  margin-bottom: 0;
-  padding-bottom: 80px;
-}
-
 .center-text {
   text-align: center;
-}
-
-.editor-link {
-  display: none;
-  margin-top: 0;
-  .btn {
-    border: 0;
-    border-radius: 2px;
-    width: 100%;
-    max-width: 500px;
-    box-sizing: border-box;
-    font-size: 2rem;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0;
-    font-size: 18px;
-    cursor: pointer;
-    background-color: #f7e064;
-    color: #333;
-    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
-
-    &:hover {
-      background-color: #f4d525;
-      color: #333;
-    }
-  }
 }

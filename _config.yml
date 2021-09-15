@@ -14,7 +14,7 @@ description: "A group of digital organizers and software developers committed to
 author:
   name: Politics Rewired
   email: "info@politicsrewired.com"
-  twitter: "@rewiredcoop" # twitter username without the @ symbol
+  twitter: "rewiredcoop" # twitter username without the @ symbol
 social:
   name: Politics Rewired
   links:
@@ -57,6 +57,10 @@ defaults:
       layout: "page"
   - scope:
       path: "index.html"
+    values:
+      layout: "default"
+  - scope:
+      path: "spoke.html"
     values:
       layout: "default"
   - scope:

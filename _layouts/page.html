@@ -2,18 +2,14 @@
 layout: default
 ---
 
-<div class="content">
-  <section class="page">
-    <div class="container {% if page.full_width %}max-container{% endif %}">
-      {% if page.heading %}
-        <div class="heading-block">
-          <h1>{{ page.heading }}</h1>
-          {% if page.description %}
-            <p class="subtext">{{ page.description }}</p>
-          {% endif %}
-        </div>
-      {% endif %}
-      {{ content }}
-    </div>
-  </section>
+<div class="container {% if page.full_width %}max-container{% endif %}">
+  {% if page.heading %}
+  <div class="heading-block">
+    <h1>{{ page.heading }}</h1>
+    {% if page.description %}
+    <p class="subtext">{{ page.description }}</p>
+    {% endif %}
+  </div>
+  {% endif %}
+  {{ content }}
 </div>
