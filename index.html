@@ -5,33 +5,36 @@ layout: page
 intro:
   title: Politics Rewired
   blocks: 
-    - We're a group of digital organizers and software developers committed to building the technical infrastructure the Left needs to win and wield power. 
-    - If you're interested in doing a user interview with us about your organization or organizing effort's data management needs, email us at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.
+    - We are a collective of software developers and digital organizers building technology to help the Left win and wield power. 
+    - As a worker-owned cooperative, we are motivated by politics, not profits. We’re in this fight to support the campaigns, organizations, and unions doing the work to organize millions of ordinary people to create a more free and equal world.
+    - To discuss your organization or organizing effort's data management needs, email us at <a href="mailto:info@politicsrewired.com">info@politicsrewired.com</a>.
   columns:
+    - title: Spoke Rewired
+      body: |
+        <p>
+          Spoke Rewired is a low-cost, out-of-the-box solution for your peer-to-peer texting team, based on the open-source Spoke application. 
+        </p>
+        <p>
+          We also offer assistance in planning, building, and analyzing your campaigns from leaders of the Bernie 2020 National Texting Team, one of the most successful and energizing texting campaigns to date.
+        </p>
+      action:
+        text: Get Started
+        url: "/signup"
+    
     - title: What's Next
       action:
         text: Join us!
         url: "/careers"
       body: |
         <p>
-          We've been planning a series of projects to fundamentally change the organizing technology landscape,
-          and we'll have more information soon about what we're building and how.
-
-          For now, check out our first <a href="/blog">blog post</a> about the importance of technology
-          for organizing projects.
+          We are building Assemble, a collaborative database that’s as easy to use as Google Sheets, 
+          but with all the power and flexibility of a fully developed modern database.
         </p>
-
         <p>
-          We're also hiring!
+          Join our team in fundamentally changing the organizing technology landscape and helping 
+          organizers save time, get rest, and do their best work.
         </p>
-
-    - title: Peer-to-Peer Texting
-      body: |
-        Spoke Rewired is a low-cost, out-of-the-box solution for your peer-to-peer texting team based on the open-source Spoke application. Use the same software that powered the Bernie Sanders 2020 texting program, which sent over 260 million messages. Need additional help? We also offer extra assistance in planning, building, and analyzing your campaigns from leaders of the Bernie 2020 National Texting Team.
-      action:
-        text: Get Started
-        url: "/signup"
-
+  
 sections:
   - title: Messaging Platform
     content: From their browser, your volunteers can send scripted and tailored messages to voters, donors, and fellow volunteers. Conversations requiring attention will automatically appear in texters' to-do lists, and they can easily respond, opt-out contacts, or even escalate trickier conversations to an administrator.
@@ -45,6 +48,14 @@ sections:
   - title: Automatic Resource Management
     content: Spoke Rewired automatically assigns phone numbers to send your texts from, for local engagement and to ensure your messages aren't flagged as spam.
     image: proximity.gif
+
+clients:
+  - image: str-red.png
+  - image: RWDSU.jpeg
+  - image: Jovanka.png 
+  - image: JusticeDemocrats.jpeg   
+  - image: SunriseMovement.jpeg
+  - image: EWOC.png
 ---
 
 <section class="hero">
@@ -56,13 +67,13 @@ sections:
   </div>
 </section>
 
-<section class="hero">
+<section>
   <div class="container flex">
     {% for item in page.intro.columns %}
       <div class="text">
         <h2> {{ item.title }} </h2>
         <p> {{ item.body }} </p>
-        <div class="button signup-cta" style="margin: 40px auto 20px;">
+        <div class="button signup-cta">
           <a href="{{ item.action.url }}">{{ item.action.text }}</a>
         </div>
       </div>
@@ -74,7 +85,7 @@ sections:
 
 {% for section in page.sections %}
 <section>
-  <div class="container flex">
+  <div class="container flexWithAternate">
     <div class="text">
       <h2>{{ section.title }}</h2>
       <p class="subtext">{{ section.content }}</p>
@@ -90,6 +101,18 @@ sections:
 </section>
 {% endfor %}
 
+<section>
+  <h2>Our Clients</h2>
+  <div class="flex">
+    {% for client in page.clients %}
+    <div class="image">
+      <img src="/images/{{ client.image }}" />
+    </div>
+    {% endfor %}
+    <span class="title">...and more!</span>
+  </div>
+</section>
+
 <section id="email-signup">
   <!-- Begin Mailchimp Signup Form -->
   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -99,15 +122,16 @@ sections:
       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
   </style>
   <div id="mc_embed_signup">
-  <form action="https://politicsrewired.us3.list-manage.com/subscribe/post?u=446f5fa4728d96df66a367117&amp;id=ed7b076a47" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="https://politicsrewired.us3.list-manage.com/subscribe/post?u=446f5fa4728d96df66a367117&amp;id=ed7b076a47" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
-    <label for="mce-EMAIL">Subscribe to Company Updates</label>
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <label for="mce-EMAIL"><h2>Subscribe for Updates</h2></label>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_446f5fa4728d96df66a367117_ed7b076a47" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      <div class="clear">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background: #FF0000;"></div>
       </div>
-  </form>
+    </form>
   </div>
 
   <!--End mc_embed_signup-->

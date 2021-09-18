@@ -1,33 +1,40 @@
 .hero {
-  color: $primary-plum;
-  background: $primary-cream;
+  color: $assemble-blue;
+  background: $assemble-white;
   text-align: left;
   padding-top: 50px;
 
   .text-container {
-    border-left: 1px solid $primary-plum;
     padding: 10px 20px;
   }
 
   p {
     text-align: left;
-    color: $primary-plum;
+    color: $assemble-blue;
   }
 
   a {
-    color: $primary-green;
+    color: $assemble-orange;
     text-decoration: none;
 
     &:hover {
-      color: $secondary-green-medium;
+      color: $secondary-salmon;;
     }
   }
 }
 
+button {
+  align-self: center;
+}
+
+.title  {
+  font-size: 24px;
+}
+
 @media #{$desktop} {
-  .flex {
+  .flexWithAternate, .flex {
     @include flexbox;
-    align-items: top;
+    align-items: center;
     flex-direction: row;
 
     .text,
@@ -38,7 +45,7 @@
     }
   }
 
-  .content section:nth-child(even) .flex {
+  .container section:nth-child(even) .flexWithAternate {
     flex-direction: row-reverse;
   }
 }
