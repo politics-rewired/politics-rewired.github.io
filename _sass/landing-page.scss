@@ -27,10 +27,6 @@ button {
   align-self: center;
 }
 
-.title  {
-  font-size: 24px;
-}
-
 @media #{$desktop} {
   .flexWithAternate, .flex {
     @include flexbox;

@@ -50,11 +50,13 @@ sections:
     image: proximity.gif
 
 clients:
-  - image: str-red.png
-  - image: RWDSU.jpeg
-  - image: Jovanka.png 
-  - image: JusticeDemocrats.jpeg   
-  - image: SunriseMovement.jpeg
+  - image: JusticeDemocrats.png 
+  - image: OurRevolution.png
+  - image: Bernie.png
+  - image: JovankaBeckles.png 
+  - image: RWDSU.png
+  - image: SunriseMovement.png
+  - image: str-red.png  
   - image: EWOC.png
 ---
 
@@ -102,14 +104,13 @@ clients:
 {% endfor %}
 
 <section>
-  <h2>Our Clients</h2>
+  <h2>Who We Work With</h2>
   <div class="flex">
     {% for client in page.clients %}
     <div class="image">
       <img src="/images/{{ client.image }}" />
     </div>
     {% endfor %}
-    <span class="title">...and more!</span>
   </div>
 </section>
 
