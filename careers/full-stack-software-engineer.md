@@ -30,7 +30,7 @@ We are 100% remote during COVID-19, but most of us are in the greater New York C
 
 **Compensation**
 
-Full time employees — base rate of \$5k/month (\$60k/year) with health, vision, and dental insurance. We cover 100% of premiums on a low-deductible plan. Additionally, members
+Full time employees — base rate of \$6.67k/month (\$80k/year) with health, vision, and dental insurance. We cover 100% of premiums on a low-deductible plan. Additionally, members
 receive shares of quarterly profit distributions.
 
 The salary is at $60k because that's what the current members have decided allows them to live
