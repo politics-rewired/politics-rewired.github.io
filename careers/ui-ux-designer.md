@@ -2,7 +2,7 @@
 layout: post
 title: "UI/UX Designer"
 description: >
-	Rewired is hiring a UI/UX designer to help us build the next generation of grassroots organizing tools for the Left.
+  Rewired is hiring a UI/UX designer to help us build the next generation of grassroots organizing tools for the Left.
 ---
 
 Rewired is hiring a UI/UX designer to help us build the next generation of grassroots organizing tools for the Left.
