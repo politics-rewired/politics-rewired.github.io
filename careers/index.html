@@ -3,16 +3,26 @@ title: Politics Rewired
 description: Coop building political tech.
 
 teams:
-  - title: Engineering
+  - title: Operations
     jobs:
-      - title: Full Stack Software Engineer
-        description: "You will be building the Assemble product suite: a powerful general purpose data management tool, and an API for quickly building extensions."
-        link: full-stack-software-engineer
+      - title: Director of Operations
+        description: You will help with organizational administration and business development, ensuring the company is on a smooth path
+        link: director-of-operations
   - title: Organizing
     jobs:
+      - title: Texting Organizer
+        description: "You will support our texting clients and help build scaleable volunteer systems"
       - title: Paid Texter
         description: "You will help Spoke Rewired clients accomplish their outreach goals by sending and thoughtfully replying to text messages on their behalf."
         link: paid-texter
+  - title: Engineering
+    jobs:
+      - title: UI/UX Designer
+        description: "You will design Assemble, build marketing sites, and help design tough and complex user interactions"
+        link: ui-ux-designer
+      - title: Full Stack Software Engineer
+        description: "You will be building the Assemble product suite: a powerful general purpose data management tool, and an API for quickly building extensions."
+        link: full-stack-software-engineer
 ---
 
 <section class="hero job-listings">
@@ -32,7 +42,8 @@ teams:
   </p>
 
   {% for team in page.teams %}
-  <h1>{{ team.title }}</h1>
+  <br/>
+  <h1 class="team-title">{{ team.title }}</h1>
   <dl>
     {% for job in team.jobs %}
     <dt>{{ job.title }}</dt>
