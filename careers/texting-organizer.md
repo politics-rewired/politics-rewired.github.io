@@ -9,7 +9,7 @@ Politics Rewired is hiring a Texting Organizer to help us support users of Spoke
 
 Here at Rewired, we believe much of modern organizing comes down to building scalable systems that enable volunteers to do valuable work. Therefore, our ideal candidate will have experience designing, managing, and improving scaleable organizing systems.
 
-**Please try to get applications in before November 1st, 2021! We are ready for you to start immediately.**
+**We're conducting interviews on a rolling basis, and looking for someone who can start as soon as possible. The application period will close on November 1st.**
 
 # The Company
 

@@ -9,7 +9,7 @@ Rewired is hiring a director of operations to help with organizational administr
 
 The ideal candidate will have experience managing organizations and developing business strategies within electoral campaigns or social movements.
 
-**Please try to get applications in before November 1st, 2021! We are ready for you to start immediately.**
+**We're conducting interviews on a rolling basis, and looking for someone who can start as soon as possible. The application period will close on November 1st.**
 
 # The Company
 
