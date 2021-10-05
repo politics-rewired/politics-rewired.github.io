@@ -2,7 +2,7 @@
 layout: post
 title: "Director of Operations"
 description: >
-	Rewired is hiring a director of operations to help with organizational administration and business development.
+  Rewired is hiring a director of operations to help with organizational administration and business development.
 ---
 
 Rewired is hiring a director of operations to help with organizational administration and business development.
