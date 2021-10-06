@@ -7,7 +7,7 @@ description: >
 
 Rewired is hiring a director of operations to help with organizational administration and business development.
 
-The ideal candidate will have experience managing organizations and developing business strategies within electoral campaigns or social movements.
+The ideal candidate will have experience managing organizations and developing business strategies within electoral campaigns or social movements, and and interest in cooperative development and in growing the cooperative sector.
 
 **We're conducting interviews on a rolling basis, and looking for someone who can start as soon as possible. The application period will close on November 1st.**
 
