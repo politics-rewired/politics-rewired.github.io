@@ -36,6 +36,7 @@ Additionally, all employees and contractors are eligible for quarterly profit sh
 _For this position to be a good fit, you MUST have:_
 
 - Experience building, evaluating, and executing systems
+- At least 1 year (or cycle) as primary manager of volunteer/staff team
 - Strong interpersonal skills and attention to detail
 - Patience, adaptability and empathy (especially for teammates, organizers and volunteers)
 - An interest in Rewired/grassroots organizing/building the Left
@@ -46,8 +47,8 @@ _For this position to be a good fit, you SHOULD have:_
 
 - Familiarity administering a texting tool (Spoke Rewired highly preferred)
 - Familiarity with or willingness to be trained on the use of technical tools and query languages, e.g. SQL
-- Comfort in public speaking and preparing and presenting analyses
-- Significant experience managing programs within the electoral or movement space, preferably in a remote environment
+- Comfort talking to clients and preparing and presenting analyses
+- Experience operating programs within the electoral or movement space in a remote environment
 
 # How to Apply
 
