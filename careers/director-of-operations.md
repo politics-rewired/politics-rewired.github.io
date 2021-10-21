@@ -62,7 +62,7 @@ _For this position to be a good fit, you must:_
 
 # How to Apply
 
-To apply for this position, please send a resume, an updated portfolio, a short cover letter, and the name, email, and contact info for two past work references to hiring@politicsrewired.com. These could be a previous boss or co-worker, or someone that you’ve worked with on an organizing project with.
+To apply for this position, please send a resume, a short cover letter, and the name, email, and contact info for two past work references to hiring@politicsrewired.com. These could be a previous boss or co-worker, or someone that you’ve worked with on an organizing project with.
 
 # Equal Opportunity
 
