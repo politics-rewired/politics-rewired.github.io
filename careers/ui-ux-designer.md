@@ -9,7 +9,7 @@ Rewired is hiring a UI/UX designer to help us build the next generation of grass
 
 The ideal candidate will have experience with web design (UI/UX) and ideally experience working with electoral campaigns or social movements. Experience with front-end web development is welcome as well.
 
-**Please try to get applications in before November 1st, 2021! We are ready for you to start immediately.**
+**Please try to get applications in before November 15th, 2021! We are ready for you to start immediately.**
 
 # The Company
 

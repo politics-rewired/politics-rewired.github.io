@@ -9,7 +9,7 @@ Rewired is hiring a full-stack software engineer to help us build the next gener
 
 The ideal candidate will have experience with TypeScript and React as well as experience working with electoral campaigns or social movements.
 
-**Please try to get applications in before November 1st, 2021!**
+**Please try to get applications in before November 15th, 2021!**
 
 ## The Company
 
