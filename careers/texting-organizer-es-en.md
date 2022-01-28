@@ -21,11 +21,11 @@ As a texting organizer, you’ll be part of a small team of fellow organizers wh
 
 **For our Spanish-speaking programs and partnerships, you will aid in translating and tailoring messaging en español and managing multilingual volunteer teams.**
 
-# **Location**
+# Location
 
 We are 100% remote during COVID-19 and have members in New York, California, Massachusetts, Washington, and North Carolina.
 
-# **Compensation**
+# Compensation
 
 Base rate of $70,000 per year with health, vision, and dental insurance. We cover 100% of premiums on a low-to-no deductible plan.
 
